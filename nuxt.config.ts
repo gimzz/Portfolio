@@ -10,4 +10,12 @@ export default defineNuxtConfig({
 
     ],
   },
+   app: {
+    head: {
+      title: 'Gimz - Desarrollador',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ],
+    },
+  },
 });
