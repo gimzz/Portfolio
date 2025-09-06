@@ -24,7 +24,7 @@ const colors= {
     target="_blank"
     rel="noopener noreferrer"
     :class="[
-      'inline-flex items-center justify-center gap-2 px-5 py-2 text-base transition border rounded-xl hover:opacity-70 duration-400',
+      'inline-flex items-center justify-center gap-1 sm:gap-2 px-3 sm:px-5 py-1.5 sm:py-2 text-sm sm:text-base transition border rounded-xl hover:opacity-70 duration-400',
       colors[color] ?? colors['amber']
     ]"
   >
