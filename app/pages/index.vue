@@ -34,8 +34,7 @@ const taskGroups = [
       Desarrollador Back-end.
     </h2>
     <p class="text-base md:text-lg text-white leading-relaxed max-w-lg mb-6">
-      Especializado en el Desarrollo web con NestJS, TypeScript y con amplios
-      conocimientos en análisis, modelado y optimización de datos.
+      Con más de un año de experiencia en NestJS, TypeScript y tecnologías web modernas. Actualmente estoy aprendiendo Java y desarrollo de aplicaciones de escritorio para seguir creciendo. También cuento con amplios conocimientos en análisis y modelado de datos.
     </p>
 
     <div
