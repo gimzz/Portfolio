@@ -10,18 +10,24 @@ const props = defineProps({
   },
 });
 const colors= {
-    amber: 'bg-amber-600 text-white border-amber-800',
-    red: 'bg-red-600 text-white border-red-800'
+  gray: 'bg-gray-600 text-white border-gray-800',
+  amber: 'bg-amber-600 text-white border-amber-800',
+  red: 'bg-red-500 text-white border-red-800',
+  blue: 'bg-blue-600 text-white border-blue-800',
 }
 </script>
+
 <template>
   <a
     :href="href"
     role="link"
     target="_blank"
     rel="noopener noreferrer"
-    :class="`inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base ${colors[props.color] ?? colors['amber']} transition borde rounded-full hover:opacity-45 duration-300`"
+    :class="[
+      'inline-flex items-center justify-center gap-2 px-5 py-2 text-base transition border rounded-xl hover:opacity-70 duration-400',
+      colors[color] ?? colors['amber']
+    ]"
   >
     <slot />
-</a>
+  </a>
 </template>
